@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+h1 {
+    /* text-align: center; */
+    margin: 0.75rem;
+    padding-left: 1.25rem;
+    color: #ffffff;
+}
+
+p{
+    font-style: italic;
+}
+
+#nav {
+    width: 30rem;
+    background-color: #6d6969;
+}
+
+/* Static Posts */
+.post-1,
+.post-2,
+.post-3 {
+    width: 15rem;
+    height: 10rem;
+    margin: 2rem;
+    /* background-color: red; */
+}
+.post-1 {
+    background-color: rgb(0, 110, 255);
+}
+
+.post-2 {
+    background-color: rgb(128, 0, 0);
+}
+
+.post-3 {
+    background-color: yellow;
+}
+
+.notes {
+    border: 1px dotted;
+    text-align: center;
+}
+
+#posted-card {
+    width: 100%;
+    background: #eeebeb;
+}
